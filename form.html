@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration user</title>
+    <?php
+include('form.php');
+?>
+</head>
+<body>
+
+    <div class="profile"><img src="php11.jpeg">
+        <h1>Registration</h1>
+    </div>
+    <form method="post" action="form.php">
+   <div>
+       <label>New user name<input type="text" name="name" required></label>
+   </div></br>
+        <div>
+            <label>E-mail<input type="email" name="email"required></label>
+        </div></br>
+            <div>
+        <label>Password<input type="text" name="password" required></label>
+            </div></br>
+        <div>
+    <label>repeat Password<input type="text" name="pR" required></label>
+    </div></br>
+    <div>
+        <button type="submit">Отправить</button>
+    </div>
+    </form>
+
+
+</body>
+</html>
